@@ -45,6 +45,7 @@
     <Compile Include="Boucles.cs" />
     <Compile Include="Conditions.cs" />
     <Compile Include="ConsoleEnvironements.cs" />
+    <Compile Include="FileManipulation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tableaux.cs" />

@@ -10,8 +10,8 @@ namespace CSharp
     {
         public static void LesTableaux()
         {
-            string[] Jours = new string[] { "Lundi", "Mardi", "Mercredi" };
-            //On declare un Tableaux
+            string[] Jours = new string[] { "Lundi", "Mardi", "Mercredi" }; //On declare un Tableaux type chaine de charactere
+            int[] Nombresd = new int[] {0, 1, 2, 3}; //On declare un Tableaux type Entier
 
             string[] Semaines = new string[3];
             Semaines[0] = "Semaine 1";
