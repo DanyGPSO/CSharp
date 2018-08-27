@@ -22,6 +22,7 @@ namespace CSharp
             Console.Write(DateTime.Now.Hour); //Console Affiche Heur actuel
             Console.Write(DateTime.Now.DayOfWeek == DayOfWeek.Friday); //Console Affiche un jour de la semaine au choix
             Console.Write(DateTime.Now.DayOfWeek); //Console Affiche un jour de la semaine actuel
+            Console.ForegroundColor = ConsoleColor.Gray; //Changer la couleur du text
             Console.ReadLine(); //Console faire une pause
         }
     }
