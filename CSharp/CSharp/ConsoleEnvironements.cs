@@ -4,6 +4,7 @@ using System.IO; //APPDATA
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 //@Params \t = Tabulation
 //@Params \n = Saut de ligne
@@ -24,6 +25,7 @@ namespace CSharp
             Console.Write(DateTime.Now.DayOfWeek); //Console Affiche un jour de la semaine actuel
             Console.ForegroundColor = ConsoleColor.Gray; //Changer la couleur du text
             Console.ReadLine(); //Console faire une pause
+            Thread.Sleep(60000); //Faire une pause entre 2 codes
         }
     }
 }
